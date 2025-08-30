@@ -1,51 +1,12 @@
-import Navigation from "@/components/Navigation";
-import HeroSection from "@/components/HeroSection";
-import TrendingSection from "@/components/TrendingSection";
-import ContentSection from "@/components/ContentSection";
-import Footer from "@/components/Footer";
+// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      
-      <main>
-        <HeroSection />
-        
-        <TrendingSection />
-        
-        <ContentSection 
-          title="Featured Movies" 
-          type="movie" 
-          id="movies"
-        />
-        
-        <ContentSection 
-          title="TV Shows" 
-          type="tv" 
-          id="tv-shows"
-        />
-        
-        <ContentSection 
-          title="Music Collection" 
-          type="music" 
-          id="music"
-        />
-        
-        <ContentSection 
-          title="Gaming Hub" 
-          type="game" 
-          id="games"
-        />
-        
-        <ContentSection 
-          title="Live Events" 
-          type="event" 
-          id="events"
-        />
-      </main>
-      
-      <Footer />
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
+        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+      </div>
     </div>
   );
 };
